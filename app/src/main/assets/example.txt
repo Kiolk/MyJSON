@@ -1,0 +1,86 @@
+{
+  "person": [
+	{
+    		"id": "1",
+    		"name": "Vitya",
+    		"country": "Belarus",
+    		"age": "40",
+    		"sex": "M",
+    		"phone": "+37525 923 843 1"
+  	},
+	{
+		"id": "2",
+    		"name": "Shura",
+    		"country": "Belarus",
+    		"age": "14",
+    		"sex": "M",
+    		"phone": "+375 33 5409481"
+	},
+
+    	{
+        		"id": "3",
+            	"name": "Kolya",
+            	"country": "Belarus",
+            	"age": "32",
+            	"sex": "M",
+            	"phone": "+375 33 5403421"
+        },
+        {
+            	"id": "4",
+                "name": "Masha",
+                "country": "Belarus",
+                "age": "32",
+                "sex": "W",
+                "phone": "+375 44 1234043"
+         },
+         {
+                 "id": "5",
+                 "name": "Masha",
+                 "country": "Belarus",
+                 "age": "32",
+                  "sex": "W",
+                  "phone": "+375 23 4352345"
+          },
+        {
+            		"id": "6",
+            		"name": "Shura",
+            		"country": "Belarus",
+            		"age": "40",
+            		"sex": "M",
+            		"phone": "+375 25 9238431"
+          	},
+        	{
+        		    "id": "7",
+            		"name": "Vitya",
+            		"country": "Belarus",
+            		"age": "20",
+            		"sex": "M",
+            		"phone": "+375 33 5489213"
+        	},
+        	{
+            		"id": "8",
+                	"name": "Vovaa",
+                	"country": "Belarus",
+                	"age": "32",
+                	"sex": "M",
+                	"phone": "+375 43 12343221"
+            },
+            {
+                	"id": "9",
+                    "name": "Valya",
+                    "country": "Belarus",
+                    "age": "22",
+                    "sex": "W",
+                    "phone": "+375 33 0394852"
+             },
+             {
+                     "id": "10",
+                     "name": "Galya",
+                     "country": "Belarus",
+                     "age": "34",
+                      "sex": "W",
+                      "phone": "+375 29 4434929"
+              }
+
+	]
+}

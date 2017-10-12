@@ -1,0 +1,9 @@
+{
+  "person": {
+    "id": "1",
+    "name": "Vitya",
+    "country": "Belarus",
+    "age": "40",
+    "sex": "M"
+  }
+}

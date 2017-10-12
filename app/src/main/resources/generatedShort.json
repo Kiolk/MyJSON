@@ -1,0 +1,45 @@
+{
+  "_id": "59dbe02684a66bbe143b20d1",
+  "index": 0,
+  "guid": "ef028693-ff8f-4b6d-8d14-babc9b2ad9ca",
+  "isActive": false,
+  "balance": "$2,816.26",
+  "picture": "http://placehold.it/32x32",
+  "age": 23,
+  "eyeColor": "blue",
+  "name": "Shelia Chang",
+  "gender": "female",
+  "company": "SOPRANO",
+  "email": "sheliachang@soprano.com",
+  "phone": "+1 (968) 481-3312",
+  "address": "309 Ryder Street, Davenport, Maryland, 9562",
+  "about": "Anim veniam dolor ullamco minim elit laboris ex id nulla non quis ut id. Consectetur aliquip consectetur laborum cillum pariatur sit dolor excepteur eiusmod amet. Sint fugiat commodo pariatur pariatur duis pariatur irure commodo sit occaecat. Sunt eu amet minim labore proident dolore elit minim quis cillum ut sint aliqua dolore.\r\n",
+  "registered": 1507582371121,
+  "latitude": 70.552683,
+  "longitude": 97.554133,
+  "tags": [
+    "laborum",
+    "deserunt",
+    "tempor",
+    "ipsum",
+    "non",
+    "magna",
+    "et"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Frazier Tyler"
+    },
+    {
+      "id": 1,
+      "name": "Powers Terrell"
+    },
+    {
+      "id": 2,
+      "name": "Jeanine Holloway"
+    }
+  ],
+  "greeting": "Hello, Shelia Chang! You have 5 unread messages.",
+  "favoriteFruit": "apple"
+}
