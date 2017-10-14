@@ -1,12 +1,32 @@
+
 {
-  "items" : [ {
-    "id" : "2",
-    "name" : "Wayne Gretzky",
-    "sentences" : "You miss 100% of the shots you don?t take"
-  }, {
-    "id" : "3",
-    "name" : "Charles Darwin",
-    "sentences" : "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change"
-  } ],
-  "nextPageToken" : "Ci8SKWoPbXlBcHBsaWNhdGlvbklkchYLEhBNeUZhdm9yaXRlV3JpdGVyGAMMGAAgAA"
+ "items": [
+  {
+   "id": "2",
+   "name": "Wayne Gretzky",
+   "sentences": "You miss 100% of the shots you don�t take"
+  },
+  {
+   "id": "3",
+   "name": "Charles Darwin",
+   "sentences": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change"
+  },
+  {
+   "id": "4",
+   "name": "Farrah Gray",
+   "sentences": "Build your own dreams, or someone else will hire you to build theirs"
+  },
+  {
+   "id": "5",
+   "name": "Confucius",
+   "sentences": "The will to win, the desire to succeed, the urge to reach your full potential� these are the keys that will unlock the door to personal excellence"
+  },
+  {
+   "id": "6",
+   "name": "Japanese Proverb",
+   "sentences": "Fall seven times and stand up eight"
+  }
+ ],
+ "nextPageToken": "Ci8SKWoPbXlBcHBsaWNhdGlvbklkchYLEhBNeUZhdm9yaXRlV3JpdGVyGAYMGAAgAA"
 }
+ 
