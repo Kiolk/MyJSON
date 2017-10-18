@@ -1,24 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical"
     tools:context="comkiolk.github.myjson.MainActivity">
 
-
-
-    <ListView
-        android:id="@+id/persons_list_view"
+    <ProgressBar
+        android:id="@+id/progress_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:visibility="invisible"/>
 
-        android:divider="@color/colorAccent"
-        android:dividerHeight="1dp"></ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
+        <ListView
+            android:id="@+id/persons_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:divider="@color/colorAccent"
+            android:dividerHeight="1dp"></ListView>
 
-</LinearLayout>
+
+        <TextView
+            android:id="@+id/input_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="@string/default_name"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:padding="8dp"
+            android:text="@string/get_button"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/name_of_writer_edit_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:hint="name of writer"/>
+
+                <EditText
+                    android:id="@+id/id_edit_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:hint="ID"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/sentences_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Quote of writer"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/post_new_quote_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="8dp"
+            android:text="Post new quote"/>
+
+        <Button
+            android:id="@+id/find_quote_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="8dp"
+            android:text="find quote by ID"/>
+
+        <Button
+            android:id="@+id/update_quote_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="8dp"
+            android:text="update quote by ID"/>
+
+        <Button
+            android:id="@+id/delete_quote_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="8dp"
+            android:text="delete quote"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

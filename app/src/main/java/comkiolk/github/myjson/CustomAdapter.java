@@ -13,15 +13,15 @@ public class CustomAdapter extends BaseAdapter {
 
     Context context;
     ArrayList<String> namePerson;
-    ArrayList<String> afePerson;
-    ArrayList<String> mPersonPhone;
+    ArrayList<String> mSentences;
+    ArrayList<Long> mId;
     LayoutInflater mLayoutInflater;
 
-    public CustomAdapter(final Context applicationContext, final ArrayList<String> namePerson, final ArrayList<String> afePerson, final ArrayList<String> mPersonPhone) {
-        this.context = applicationContext;
+    public CustomAdapter(final Context applicationContext, final ArrayList<String> namePerson, final ArrayList<String> mSentences, final ArrayList<Long> mIdNote) {
+        this.context = applicationContext; //final ArrayList<String> afePerson, final ArrayList<String> mPersonPhone,
         this.namePerson = namePerson;
-        this.afePerson = afePerson;
-        this.mPersonPhone = mPersonPhone;
+        this.mSentences = mSentences;
+        this.mId = mIdNote;
         mLayoutInflater = (LayoutInflater.from(applicationContext));
     }
 
@@ -44,11 +44,13 @@ public class CustomAdapter extends BaseAdapter {
     public View getView(final int pI, View pView, final ViewGroup pViewGroup) {
         pView = mLayoutInflater.inflate(R.layout.list_activity, null);
         final TextView name = (TextView) pView.findViewById(R.id.name_text_view);
-        final TextView age = (TextView) pView.findViewById(R.id.age_text_view);
-        final TextView phone = (TextView) pView.findViewById(R.id.phone_text_view);
-        phone.setText(mPersonPhone.get(pI));
+        final TextView id = (TextView) pView.findViewById(R.id.id_text_view);
+        final TextView sentences = (TextView) pView.findViewById(R.id.sentences_text_view);
+       // phone.setText(mPersonPhone.get(pI));
         name.setText(namePerson.get(pI));
-        age.setText(afePerson.get(pI));
+       // age.setText(afePerson.get(pI));
+        sentences.setText(mSentences.get(pI));
+        id.setText("" + mId.get(pI));
         return pView;
     }
 }

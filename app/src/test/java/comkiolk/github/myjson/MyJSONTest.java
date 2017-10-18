@@ -59,7 +59,7 @@ public class MyJSONTest {
     }
 
     @Test
-    public void checkForNullServerRequest() {
+    public void checkForNullServerRequest() throws IOException {
         final HttpClient httpClient = new HttpClient();
         assertNull(httpClient.serverRequest("http://tut.by"));
     }
@@ -76,7 +76,7 @@ public class MyJSONTest {
 
     //Parsing JSON file from http client with mocked Object
     @Test
-    public void checkParsingFroServerRequest() {
+    public void checkParsingFroServerRequest() throws IOException{
         final InputStream correctInputStream = mockJSON.getInputStream("generated.json");
         when(mHttpClient.serverRequest("tut.by")).thenReturn(correctInputStream);
         mockJSON.stream(mHttpClient.serverRequest("tut.by"));

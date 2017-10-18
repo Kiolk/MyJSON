@@ -2,4 +2,5 @@
     <string name="app_name">MyJSON</string>
     <string name="default_name">Name</string>
     <string name="default_age">age</string>
+    <string name="get_button">Show all quotes</string>
 </resources>
